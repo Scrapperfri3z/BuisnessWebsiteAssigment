@@ -8,32 +8,64 @@
     <meta name="keywords" content="Buisness WebSite"> <!-- Key words for searching -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<style media="screen">
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  background:#0099cc;
+  padding: 30px;
+    overflow: hidden;
+}
+.header h1 {
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+</style>
 
     <title>Buisness Website</title>
   </head>
   <body>
-
-    <header><h1>We made</h1></header>
-        <nav><h2>Navigation Menu</h2></nav>
-        <aside><p>The Aside Space</p></aside>
-        <section>
-          <h3>Section 1</h3>
-          <article>
-            <p>This is article 1 in section 1.</p>
-          </article>
-          <article>
-            <p>This is article 2 in section 1.</p>
-          </article>
-        </section>
-        <section>
-          <h3>Section 2</h3>
-          <article>
-            <p>This is article 1 in section 2.</p>
-          </article>
-          <article>
-            <p>This is article 2 in section 2.</p>
-          </article>
-        </section>
+<div class="header">
+  <h1>Buisness WebSite</h1>
+</div>
+        <ul>
+        <li>  <a href="#">Home</a>
+        <li>  <a href="#">Store</a>
+        <li>  <a href="#">About us</a>
+        <li>  <a href="#">Content us</a>
+        </ul>
 
       <script src="index.js"></script>
 
